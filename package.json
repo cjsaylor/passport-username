@@ -1,0 +1,27 @@
+{
+  "name": "passport-username",
+  "version": "0.0.1",
+  "description": "Local username authentication strategy for Passport.",
+  "keywords": ["passport", "local", "auth", "authn", "authentication"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cjsaylor/passport-username.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cjsaylor/passport-username/issues"
+  },
+  "author": {
+    "name": "Chris Saylor",
+    "email": "cjsaylor@gmail.com",
+    "url": "http://chris-saylor.com"
+  },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  } ],
+  "main": "./lib/passport-username",
+  "dependencies": {
+    "passport": "~0.1.1"
+  },
+  "engines": { "node": ">= 0.10.0" }
+}
